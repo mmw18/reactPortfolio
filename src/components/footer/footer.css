@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: center; /* Align items horizontally in the center */
+    align-items: center; /* Align items vertically in the center */
+    background: linear-gradient(#Faf5f0, #8c968c); /* Linear gradient background */
+    padding: 1rem; /* Add some padding */
+    width: 100%; /* Ensure it spans the full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .footer a {
+    margin: 0 10px; /* Spacing between each icon */
+    color: inherit; /* Inherits the color from parent, can be set to a specific color if needed */
+    text-decoration: none; /* Removes the underline from links */
+  }
+  
+  .footer a:hover {
+    color: #808080; /* Color change on hover, adjust as needed */
+  }
+  
+  .footer svg {
+    width: 30px; /* Size of the icons */
+    height: 30px; /* Size of the icons */
+  }
+  

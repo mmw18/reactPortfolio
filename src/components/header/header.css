@@ -30,13 +30,10 @@ nav ul {
 nav ul li {
     margin: .5rem .75rem;
     font-size: 22px;
-}
-
-a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
-a:hover {
-    filter: drop-shadow(0 0 2em #edabb2);
-}
+.header a:hover {
+    color: #808080; /* Color change on hover, adjust as needed */
+  }
