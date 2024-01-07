@@ -1,0 +1,27 @@
+.about-me-container {
+    background-color: #Faf5f0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+  
+  .about-me-container h1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  
+  .about-me-photo {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    max-width: 100%;
+    box-shadow: 3px 3px 10px #edabb2;
+  }
+  
+  .about-me-container p {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+  
