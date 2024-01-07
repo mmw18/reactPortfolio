@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
-import AboutMe from '../components/aboutMe';
+import AboutMe from '../components/aboutMe/aboutMe';
 
 const router = createBrowserRouter([
   {
