@@ -15,7 +15,9 @@ const Contact = () => {
     }
   };
 
-  const isFormValid = () => emailValid && form.message;
+  const isFormValid = () => {
+    return emailValid && form.message.trim() !== '' && form.name.trim() !== '';
+  };
 
   return (
     <div className="contact-page-container">
@@ -56,4 +58,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
 
