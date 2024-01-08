@@ -19,22 +19,6 @@ const Resume = () => {
           <li>Testing (Jest, Mocha)</li>
         </ul>
         </div>
-
-        <div className="skills-category">
-          <h2>Back-End Technical Skills</h2>
-          <ul>
-          <li>Node.js, Express.js</li>
-          <li>SQL, NoSQL (MongoDB)</li>
-          <li>Object-Relational Mapping (Sequelize)</li>
-          <li>RESTful API Development</li>
-          <li>Server-Side Rendering</li>
-          <li>Authentication & Authorization</li>
-          <li>Web Security Fundamentals</li>
-          <li>Visual Studio Code</li>
-          <li>MERN Stack (MongoDB, Express.js, React, Node.js)</li>
-        </ul>
-        </div>
-
         <div className="skills-category">
           <h2>Soft Skills</h2>
           <ul>
@@ -47,6 +31,20 @@ const Resume = () => {
           <li>Time Management</li>
           <li>Adaptability</li>
           <li>Critical Thinking</li>
+        </ul>
+        </div>
+        <div className="skills-category">
+          <h2>Back-End Technical Skills</h2>
+          <ul>
+          <li>Node.js, Express.js</li>
+          <li>SQL, NoSQL (MongoDB)</li>
+          <li>Object-Relational Mapping (Sequelize)</li>
+          <li>RESTful API Development</li>
+          <li>Server-Side Rendering</li>
+          <li>Authentication & Authorization</li>
+          <li>Web Security Fundamentals</li>
+          <li>Visual Studio Code</li>
+          <li>MERN Stack (MongoDB, Express.js, React, Node.js)</li>
         </ul>
         </div>
       </div>

@@ -2,7 +2,7 @@
     padding: 20px;
     background-color: #Faf5f0;
     font-family: 'Times New Roman', serif;
-    color: #8c968c;
+    color: #303030;
     display: flex;
     flex-direction: column;
     align-items: center; /* Center align the contents */
@@ -33,7 +33,7 @@
   
   .skills-category li {
     margin-bottom: 5px;
-    color: #006400; /* Darker green for list items */
+    color: #303030; /* Darker green for list items */
   }
   
   .download-resume {
