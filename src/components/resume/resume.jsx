@@ -11,12 +11,14 @@ const Resume = () => {
           <h2>Front-End Technical Skills</h2>
           <ul>
           <li>HTML, CSS, JavaScript</li>
-          <li>CSS Frameworks (Bootstrap, Tailwind)</li>
+          <li>CSS Frameworks (Bootstrap, Bulma)</li>
           <li>React, Redux</li>
           <li>Responsive Design, Accessibility</li>
           <li>UX/UI Principles</li>
           <li>Version Control (Git & GitHub)</li>
-          <li>Testing (Jest, Mocha)</li>
+          <li>Testing (Jest)</li>
+          <li>Browser Developer Tools Proficiency</li>
+          <li>Webpack</li>
         </ul>
         </div>
         <div className="skills-category">
