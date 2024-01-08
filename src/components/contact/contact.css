@@ -2,11 +2,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px; /* Increase space between inputs */
-    width: 33%; /* Set the width to one-third of the page */
+    width: 90%; /* Set the width to one-third of the page */
     margin: auto; /* Center the form horizontally */
-    padding: 20px;
-    /* box-shadow: 0 4px 8px rgba(237, 171, 178, 0.2); Faint shadow for the form */
-    /* border-radius: 10px; */
     background-color: #Faf5f0;
     align-self: center;
   }
@@ -15,6 +12,7 @@
     border: 2px solid #8c968c;
     background-color: #ffffff; /* Change input background to white */
     padding: 10px;
+    color: black;
     border-radius: 5px;
     width: calc(100% - 20px); /* Adjust width to account for padding */
     box-shadow: 0 2px 4px rgba(237, 171, 178, 0.2); /* Faint shadow for inputs */
@@ -45,14 +43,6 @@
     cursor: not-allowed;
   }
   
-  /* Ensuring the content area takes up the full height */
-  .content-area {
-    min-height: calc(100vh - 40px); 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
   .contact-page-container {
     display: flex;
     justify-content: center;
