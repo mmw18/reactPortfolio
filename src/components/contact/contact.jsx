@@ -18,37 +18,42 @@ const Contact = () => {
   const isFormValid = () => emailValid && form.message;
 
   return (
-    <div className="contact-form">
-      <input
-        type="text"
-        name="name"
-        value={form.name}
-        onChange={handleInputChange}
-        placeholder="Name"
-      />
-      <input
-        type="email"
-        name="email"
-        value={form.email}
-        onChange={handleInputChange}
-        placeholder="Email"
-        className={!emailValid ? 'invalid' : ''}
-      />
-      {!emailValid && <p className="error-message">Please enter a valid email.</p>}
-      <textarea
-        name="message"
-        value={form.message}
-        onChange={handleInputChange}
-        placeholder="Your Message"
-      />
-      <button
-        type="submit"
-        disabled={!isFormValid()}
-      >
-        Submit
-      </button>
+    <div className="contact-page-container">
+      <div className="contact-form-container">
+        <div className="contact-form">
+          <input
+            type="text"
+            name="name"
+            value={form.name}
+            onChange={handleInputChange}
+            placeholder="Name"
+          />
+          <input
+            type="email"
+            name="email"
+            value={form.email}
+            onChange={handleInputChange}
+            placeholder="Email"
+            className={!emailValid ? 'invalid' : ''}
+          />
+          {!emailValid && <p className="error-message">Please enter a valid email.</p>}
+          <textarea
+            name="message"
+            value={form.message}
+            onChange={handleInputChange}
+            placeholder="Your Message"
+          />
+          <button
+            type="submit"
+            disabled={!isFormValid()}
+          >
+            Submit
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
 
 export default Contact;
+
