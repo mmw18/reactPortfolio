@@ -37,3 +37,8 @@ nav ul li {
 .header a:hover {
     color: #808080; /* Color change on hover, adjust as needed */
   }
+  .overlay-title-link {
+    text-decoration: none; 
+    color: inherit;
+  }
+  

@@ -1,25 +1,39 @@
-// src/App.jsx
 import React from 'react';
 import { RouterProvider } from 'react-router-dom';
 import router from './routes/router';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
   return (
-    <>
-      <Header />
-      <main>
-        <RouterProvider router={router}>
-        </RouterProvider>
-      </main>
-      <Footer />
-    </>
+    <RouterProvider router={router}>
+    </RouterProvider>
   );
 }
 
 export default App;
+
+// // src/App.jsx
+// import React from 'react';
+// import { RouterProvider } from 'react-router-dom';
+// import router from './routes/router';
+// import Header from './components/Header/Header';
+// import Footer from './components/Footer/Footer';
+// import './App.css';
+
+// function App() {
+//   return (
+//     <>
+//       <Header />
+//       <main>
+//         <RouterProvider router={router}>
+//         </RouterProvider>
+//       </main>
+//       <Footer />
+//     </>
+//   );
+// }
+
+// export default App;
 
 
 
