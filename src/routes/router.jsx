@@ -1,9 +1,14 @@
 import { createBrowserRouter } from 'react-router-dom';
 import AboutMe from '../components/aboutMe/aboutMe';
+import Home from '../components/home/home';
 
 const router = createBrowserRouter([
   {
     path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/about-me",
     element: <AboutMe />,
   },
   // {
