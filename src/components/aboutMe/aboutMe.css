@@ -1,6 +1,6 @@
 .about-me-container {
     background-color: #Faf5f0;
-    padding: 20px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     margin: 20px;/* Centers the content */
@@ -8,7 +8,7 @@
   }
   
   .about-me-container h1 {
-    margin-bottom: 20px; /* Adds space below the title */
+    margin-bottom: 16px; /* Adds space below the title */
   }
   
   .content-area {
@@ -28,7 +28,8 @@
   }
   
   .about-me-container p {
-    flex: 66%; /* Takes up two-thirds of the flex container */
+    flex: 66%;
+    padding: 3%; /* Takes up two-thirds of the flex container */
   }
   
   
