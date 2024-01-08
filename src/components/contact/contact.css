@@ -60,4 +60,9 @@
     max-width: 520px;
     padding: 20px;
   }
-   
+  .confirmation-message {
+    color: gray; 
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  

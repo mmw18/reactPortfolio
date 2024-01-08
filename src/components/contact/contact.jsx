@@ -4,6 +4,7 @@ import './contact.css';
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [emailValid, setEmailValid] = useState(true);
+  const [showConfirmation, setShowConfirmation] = useState(false);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -15,6 +16,15 @@ const Contact = () => {
     }
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (isFormValid()) {
+      setForm({ name: '', email: '', message: '' });
+      setShowConfirmation(true);
+      setTimeout(() => setShowConfirmation(false), 3000);
+    }
+  };
+
   const isFormValid = () => {
     return emailValid && form.message.trim() !== '' && form.name.trim() !== '';
   };
@@ -22,7 +32,8 @@ const Contact = () => {
   return (
     <div className="contact-page-container">
       <div className="contact-form-container">
-        <div className="contact-form">
+        {showConfirmation && <p className="confirmation-message">Thank you for your message! ♡</p>}
+        <form onSubmit={handleSubmit} className="contact-form">
           <input
             type="text"
             name="name"
@@ -45,13 +56,10 @@ const Contact = () => {
             onChange={handleInputChange}
             placeholder="Your Message"
           />
-          <button
-            type="submit"
-            disabled={!isFormValid()}
-          >
+          <button type="submit" disabled={!isFormValid()}>
             Submit
           </button>
-        </div>
+        </form>
       </div>
     </div>
   );
