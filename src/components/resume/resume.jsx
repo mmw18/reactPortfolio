@@ -7,8 +7,9 @@ const Resume = () => {
       <h1>Resume</h1>
 
       <div className="skills-section">
-        <h2>Front-End Technical Skills</h2>
-        <ul>
+        <div className="skills-category">
+          <h2>Front-End Technical Skills</h2>
+          <ul>
           <li>HTML, CSS, JavaScript</li>
           <li>CSS Frameworks (Bootstrap, Tailwind)</li>
           <li>React, Redux</li>
@@ -17,9 +18,11 @@ const Resume = () => {
           <li>Version Control (Git & GitHub)</li>
           <li>Testing (Jest, Mocha)</li>
         </ul>
+        </div>
 
-        <h2>Back-End Technical Skills</h2>
-        <ul>
+        <div className="skills-category">
+          <h2>Back-End Technical Skills</h2>
+          <ul>
           <li>Node.js, Express.js</li>
           <li>SQL, NoSQL (MongoDB)</li>
           <li>Object-Relational Mapping (Sequelize)</li>
@@ -30,9 +33,11 @@ const Resume = () => {
           <li>Visual Studio Code</li>
           <li>MERN Stack (MongoDB, Express.js, React, Node.js)</li>
         </ul>
+        </div>
 
-        <h2>Soft Skills</h2>
-        <ul>
+        <div className="skills-category">
+          <h2>Soft Skills</h2>
+          <ul>
           <li>Strategic Perspective</li>
           <li>Imaginative Solution Development</li>
           <li>Exceptional Interpersonal Abilities</li>
@@ -43,10 +48,11 @@ const Resume = () => {
           <li>Adaptability</li>
           <li>Critical Thinking</li>
         </ul>
+        </div>
       </div>
 
       <div className="download-resume">
-        <a href="https://docs.google.com/document/d/1CJXZ7SbvVwrsgU4OL74aBG9g9IBmYj1Aq83N1ISj8RM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/your-resume-link" target="_blank" rel="noopener noreferrer">
           Click here for the downloadable version
         </a>
       </div>
@@ -55,3 +61,5 @@ const Resume = () => {
 };
 
 export default Resume;
+
+

@@ -1,0 +1,49 @@
+.resume-container {
+    padding: 20px;
+    background-color: #Faf5f0;
+    font-family: 'Times New Roman', serif;
+    color: #8c968c;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the contents */
+  }
+  
+  .skills-section {
+    display: flex;
+    justify-content: center; /* Center the skill categories */
+    flex-wrap: wrap; /* Wrap sections to next line on smaller screens */
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .skills-category {
+    width: 30%; /* Adjust width for each category */
+    margin: 0 10px; /* Add margin for spacing */
+  }
+  
+  .skills-category h2 {
+    margin-bottom: 10px;
+  }
+  
+  .skills-category ul {
+    list-style-type: none; /* Remove bullet points */
+    margin-left: 0;
+    padding-left: 0; /* Remove default padding */
+  }
+  
+  .skills-category li {
+    margin-bottom: 5px;
+    color: #006400; /* Darker green for list items */
+  }
+  
+  .download-resume {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .download-resume a {
+    color: #edabb2;
+    text-decoration: none;
+    font-style: italic;
+  }
+   
