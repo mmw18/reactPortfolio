@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 function Header() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
     <header>
       <div>
@@ -10,7 +11,10 @@ function Header() {
           <h1 className="overlay-title">Megan Wright</h1>
         </Link>
       </div>
-      <nav>
+      <button className="hamburger" onClick={() => setIsNavExpanded(!isNavExpanded)}>
+      ☰
+    </button>
+    <nav className={isNavExpanded ? "expanded" : ""}>
         <ul>
           <li><a href="about-me">About Me</a></li>
           <li><a href="projects">Portfolio</a></li>

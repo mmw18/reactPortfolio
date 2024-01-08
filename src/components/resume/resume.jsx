@@ -52,7 +52,7 @@ const Resume = () => {
       </div>
 
       <div className="download-resume">
-        <a href="https://drive.google.com/your-resume-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://docs.google.com/document/d/1CJXZ7SbvVwrsgU4OL74aBG9g9IBmYj1Aq83N1ISj8RM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
           Click here for the downloadable version
         </a>
       </div>

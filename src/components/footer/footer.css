@@ -10,16 +10,16 @@
   
   .footer a {
     margin: 0 10px; /* Spacing between each icon */
-    color: inherit; /* Inherits the color from parent, can be set to a specific color if needed */
-    text-decoration: none; /* Removes the underline from links */
   }
+
+    .footer-logo {
+      height: 35px; /* Adjust the size of logos */
+      transition: transform 0.3s ease;
+    }
+    
+    .footer a:hover .footer-logo {
+      transform: translateY(-5px); /* Raise the logo on hover */
+    } /* Color change on hover, adjust as needed */
   
-  .footer a:hover {
-    color: #808080; /* Color change on hover, adjust as needed */
-  }
-  
-  .footer svg {
-    width: 30px; /* Size of the icons */
-    height: 30px; /* Size of the icons */
-  }
+
   
