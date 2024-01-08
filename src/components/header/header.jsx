@@ -11,9 +11,12 @@ function Header() {
           <h1 className="overlay-title">Megan Wright</h1>
         </Link>
       </div>
-      <button className="hamburger" onClick={() => setIsNavExpanded(!isNavExpanded)}>
-      ☰
-    </button>
+      <button className="hamburger" onClick={() => {
+  setIsNavExpanded(!isNavExpanded);
+  console.log("Nav Expanded:", !isNavExpanded);
+}}>
+  ☰
+</button>
     <nav className={isNavExpanded ? "expanded" : ""}>
         <ul>
           <li><a href="about-me">About Me</a></li>

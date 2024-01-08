@@ -25,6 +25,8 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -34,40 +36,54 @@ nav ul li {
     color: white;
 }
 
-.header a:hover {
-    color: #808080; /* Color change on hover*/
-  }
-  .overlay-title-link {
-    text-decoration: none; 
-    color: inherit;
-  }
-  
-  /* Hamburger Menu Style */
+nav ul li:hover {
+    color: #808080; /* Color change on hover */
+}
+
 .hamburger {
     display: none;
+    cursor: pointer;
+    color: white; /* White color for the hamburger icon */
     font-size: 30px;
     background: none;
     border: none;
-    color: white;
-  }
-  
-  /* Responsive Navigation */
-  @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
     .hamburger {
-      display: block;
+        display: block;
+        position: relative;
+        z-index: 2;
+        color: #303030;
     }
-  
+
+    nav {
+        position: absolute;
+        top: 5rem; /* Adjust based on the height of your header */
+        left: 0;
+        right: 0;
+        background: #f2f2f2; /* Light gray background for the dropdown */
+        z-index: 1;
+        display: none; /* Initially hidden */
+    }
+
+    nav.expanded {
+        display: block; /* Display when expanded */
+    }
+
     nav ul {
-      flex-direction: column;
-      display: none;
+        flex-direction: column;
+        width: 100%;
     }
-  
-    nav.expanded ul {
-      display: flex;
-    }
-  
+
     nav ul li {
-      margin: 1rem 0;
+        text-align: center;
+        color: black; 
+        padding: 10px 0; 
     }
-  }
-  
+
+    nav ul li:hover {
+        background-color: #505050;
+    }
+}
+
