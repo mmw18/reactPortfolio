@@ -6,6 +6,7 @@
     width: 100%; /* Ensures the container takes up the full width */
     box-sizing: border-box; /* Includes padding in the width calculation */
     justify-content: center;
+    margin-bottom: 14px;
   }
   
   

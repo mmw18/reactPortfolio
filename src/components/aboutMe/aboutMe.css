@@ -1,27 +1,33 @@
 .about-me-container {
     background-color: #Faf5f0;
-    padding: 0 20px;
+    padding: 0 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 20px;/* Centers the content */
     color: #000; /* Default text color */
   }
   
   .about-me-container h1 {
-    margin-bottom: 16px; /* Adds space below the title */
+    margin-bottom: 10px; /* Adds space below the title */
   }
   
-  .content-area {
+.left {
     display: flex;
-    flex-direction: row;
-    width: 100%; /* Take the full width of the container */
-    gap: 20px;
-  }
-  
+    flex: 66%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left p {
+    margin-right: 20px;
+}
+
+
   .about-me-photo {
     flex: 33%; /* Takes up one-third of the flex container */
     max-width: 100%; /* Adjusts to the flex container size */
-    max-height: 400px; /* Maximum height */
+    max-height: 480px; /* Maximum height */
     object-fit: cover; /* Adjusts the photo to cover the area */
     box-shadow: 3px 3px 10px #edabb2;
     align-self: center; /* Center the photo vertically */
