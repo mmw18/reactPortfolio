@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
@@ -12,12 +12,12 @@ function Header() {
         </Link>
       </div>
       <button className="hamburger" onClick={() => {
-  setIsNavExpanded(!isNavExpanded);
-  console.log("Nav Expanded:", !isNavExpanded);
-}}>
-  ☰
-</button>
-    <nav className={isNavExpanded ? "expanded" : ""}>
+        setIsNavExpanded(!isNavExpanded);
+        console.log("Nav Expanded:", !isNavExpanded);
+      }}>
+        ☰
+      </button>
+      <nav className={isNavExpanded ? "expanded" : ""}>
         <ul>
           <li><a href="about-me">About Me</a></li>
           <li><a href="projects">Portfolio</a></li>

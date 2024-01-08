@@ -51,18 +51,22 @@ nav ul li:hover {
 
 @media screen and (max-width: 768px) {
     .overlay-title {
-        font-size: 2rem; /* Adjust as needed */
+        font-size: 2rem;
+        padding: 0;
+        margin-top: 10px;
     }
     .hamburger {
         display: block;
-        position: relative;
+        position: fixed;
         z-index: 2;
         color: #303030;
+        padding: 0;
+        margin: 0;
     }
 
     nav {
         position: absolute;
-        top: 5rem; /* Adjust based on the height of your header */
+        top: 5rem;
         left: 0;
         right: 0;
         background: #f2f2f2; /* Light gray background for the dropdown */
