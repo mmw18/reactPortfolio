@@ -35,7 +35,21 @@
   
   .about-me-container p {
     flex: 66%;
-    padding: 3%; /* Takes up two-thirds of the flex container */
+    padding: 3%; 
   }
+  @media screen and (max-width: 768px) {
+    .about-me-container {
+        flex-direction: column;
+    }
+
+    .left, .about-me-photo {
+        flex: 100%; /* Each takes full width */
+        max-width: 100%; /* Ensures the photo fits within the container */
+    }
+
+    .left p {
+        margin-right: 0; /* Adjusts margin for smaller screens */
+    }
+}
   
   
