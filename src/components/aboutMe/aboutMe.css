@@ -1,55 +1,70 @@
 .about-me-container {
-    background-color: #Faf5f0;
-    padding: 0 15px;
-    display: flex;
-    flex-direction: row;
-    margin: 20px;/* Centers the content */
-    color: #000; /* Default text color */
-  }
-  
-  .about-me-container h1 {
-    margin-bottom: 10px; /* Adds space below the title */
-  }
-  
+  background-color: #Faf5f0;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  /* Centers the content */
+  color: #000;
+  /* Default text color */
+}
+
+.about-me-container h1 {
+  margin-bottom: 10px;
+  /* Adds space below the title */
+}
+
 .left {
-    display: flex;
-    flex: 66%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex: 66%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .left p {
-    margin-right: 20px;
+  padding: 0;
+  margin-right: 30px;
+  font-size: 17px;
 }
 
 
+.about-me-photo {
+  flex: 33%;
+  /* Takes up one-third of the flex container */
+  max-width: 100%;
+  /* Adjusts to the flex container size */
+  max-height: 500px;
+  /* Maximum height */
+  object-fit: cover;
+  /* Adjusts the photo to cover the area */
+  box-shadow: 3px 3px 10px #edabb2;
+  align-self: center;
+  /* Center the photo vertically */
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.about-me-container p {
+  flex: 66%;
+}
+
+@media screen and (max-width: 768px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+
+  .left,
   .about-me-photo {
-    flex: 33%; /* Takes up one-third of the flex container */
-    max-width: 100%; /* Adjusts to the flex container size */
-    max-height: 480px; /* Maximum height */
-    object-fit: cover; /* Adjusts the photo to cover the area */
-    box-shadow: 3px 3px 10px #edabb2;
-    align-self: center; /* Center the photo vertically */
+    flex: 100%;
+    /* Each takes full width */
+    max-width: 100%;
+    /* Ensures the photo fits within the container */
+    margin-top: 10px;;
   }
-  
-  .about-me-container p {
-    flex: 66%;
-    padding: 3%; 
+
+  .left p {
+    margin-right: 0;
+    /* Adjusts margin for smaller screens */
   }
-  @media screen and (max-width: 768px) {
-    .about-me-container {
-        flex-direction: column;
-    }
-
-    .left, .about-me-photo {
-        flex: 100%; /* Each takes full width */
-        max-width: 100%; /* Ensures the photo fits within the container */
-    }
-
-    .left p {
-        margin-right: 0; /* Adjusts margin for smaller screens */
-    }
 }
-  
-  

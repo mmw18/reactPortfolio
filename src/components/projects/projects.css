@@ -11,10 +11,10 @@
   
   
   .project-card {
-    background-color: #edabb2; /* Set all cards to the specified pink color */
+    background-color: #edabb2;
     padding: 20px;
     border-radius: 10px; /* Rounded corners */
-    color: white; /* Text color */
+    color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Card shadow */
     transition: transform 0.3s ease;
     display: flex; /* Makes sure the contents are flexibly organized */
@@ -40,13 +40,13 @@
   }
   
   .github-link img {
-    width: 24px; /* Adjust icon size */
+    width: 24px; 
     height: auto;
   }
 
 @media (min-width: 600px) {
   .projects-container {
-    grid-template-columns: repeat(2, minmax(200px, 400px)); /* Adjusted card width */
+    grid-template-columns: repeat(2, minmax(200px, 400px)); 
   }
 }
 @media screen and (max-width: 768px) {
