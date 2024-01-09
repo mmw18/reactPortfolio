@@ -19,7 +19,7 @@ header {
 }
 
 nav {
-    padding-top: 0;
+    margin-top: 1rem;
 }
 
 nav ul {
@@ -29,16 +29,16 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
-    margin: .5rem .75rem;
+nav ul li a {
+    margin: 2rem .75rem;
     font-size: 22px;
     text-decoration: none;
     color: white;
 }
 
-nav ul li:hover {
-    color: #808080; /* Color change on hover */
-}
+a:hover {
+    color: #808080;
+  }
 
 .hamburger {
     display: none;
@@ -61,7 +61,8 @@ nav ul li:hover {
         z-index: 2;
         color: #303030;
         padding: 0;
-        margin: 0;
+        margin-left: 15px;
+        margin-top: 9px
     }
 
     nav {
@@ -83,14 +84,17 @@ nav ul li:hover {
         width: 100%;
     }
 
-    nav ul li {
+    nav ul li a {
         text-align: center;
         color: black; 
         padding: 10px 0; 
     }
 
     nav ul li:hover {
-        background-color: #505050;
+        background-color: #edabb2;
     }
+    a:hover {
+        color: white;
+      }
 }
 
