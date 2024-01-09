@@ -49,3 +49,8 @@
     grid-template-columns: repeat(2, minmax(200px, 400px)); /* Adjusted card width */
   }
 }
+@media screen and (max-width: 768px) {
+  .project-card {
+    padding: 0;
+  }
+}
