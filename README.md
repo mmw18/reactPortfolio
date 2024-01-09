@@ -50,11 +50,11 @@ This portfolio application is more than just a showcase; it's a reflection of my
 
 ## Deployed Application
 
-[Click here to visit the site](link-to-your-deployed-page)
+[Click here to visit the site](https://main--ubiquitous-cassata-7e5f6e.netlify.app/)
 
 ## Acknowledgements
 
-A heartfelt thank you to the educators and fellow developers whose guidance and collaboration were invaluable in the extension of this project ♡
+A heartfelt thank you to the educators and fellow developers whose guidance and collaboration were invaluable in the creation of this site ♡
 
 
 
