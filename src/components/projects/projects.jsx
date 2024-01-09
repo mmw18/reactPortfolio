@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css';
+import './projects.css';
 import githubIcon from '../../assets/github-mark.png';
 
 const projects = [

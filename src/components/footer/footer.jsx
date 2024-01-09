@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import './footer.css';
 
 import githubLogo from '../../assets/github-white.png';  // Update with the correct path
 import linkedInLogo from '../../assets/linkedIn.png';  // Update with the correct path
