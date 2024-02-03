@@ -34,7 +34,7 @@ This portfolio application is more than just a showcase; it's a reflection of my
 ## Screenshots
 
 ### Home Page
-![HomePage](./public/homePage.png)
+![HomePage](./public/homePage.gif)
 
 ### About Me
 ![About Me](./public/aboutMe.png)
