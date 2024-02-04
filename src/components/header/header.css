@@ -4,7 +4,6 @@ header {
     background: linear-gradient(to bottom, #8c968c, #Faf5f0);
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2%;
     width: 100%;
     text-decoration: none;
 }

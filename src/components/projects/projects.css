@@ -7,6 +7,7 @@
     box-sizing: border-box; /* Includes padding in the width calculation */
     justify-content: center;
     margin-bottom: 14px;
+    min-height: 100vh;
   }
   
   
@@ -28,6 +29,7 @@
   
   .project-name {
     display: block;
+    font-size: 20px;
     margin-bottom: 10px;
     text-decoration: none;
     color: inherit; /* Inherits color from parent */
@@ -51,6 +53,10 @@
 }
 @media screen and (max-width: 768px) {
   .project-card {
-    padding: 0;
+    padding: 20px;
   }
+  .projects-container {
+    grid-template-columns: repeat(1, 1fr); /* Adjust to a single column layout for narrower screens */
+    max-width: 100vh;
+}
 }
